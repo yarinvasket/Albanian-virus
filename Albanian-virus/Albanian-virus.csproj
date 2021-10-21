@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Albanian-virus.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Albanian-virus.Designer.cs">
-      <DependentUpon>Albanian-virus.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
